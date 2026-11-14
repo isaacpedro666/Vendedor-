@@ -5,7 +5,7 @@
 <link rel="preload" as="image" href="assets/hero.webp" type="image/webp" fetchpriority="high">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Sistema WhatsApp Vendedor | IP DIGITAL AO</title>
-<meta name="description" content="Aprende a montar a tua estrutura de vendas digitais e a vender pelo WhatsApp. Formação em vídeo, 3 produtos prontos e garantia de 7 dias. 7.000 Kz.">
+<meta name="description" content="Aprende a montar a tua estrutura de vendas digitais e a vender pelo WhatsApp. Formação em vídeo, 3 produtos prontos e garantia de 7 dias. 5.000 Kz.">
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -165,6 +165,26 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
 .pay-item img{width:40px;height:40px;flex-shrink:0;object-fit:contain}
 .pay-item strong{display:block;color:var(--verde);font-size:.98rem}
 .pay-item small{display:block;color:#4a5751;font-size:.85rem;line-height:1.4}
+
+.proof-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:24px 0}
+.proof-card{margin:0;background:#fff;border:1px solid #e6dcc3;border-radius:16px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.06)}
+.proof-image{display:block;width:100%;height:auto;aspect-ratio:9/16;object-fit:cover;background:#111}
+.proof-card figcaption{display:grid;gap:6px;padding:14px}
+.proof-card figcaption strong{color:var(--verde);font-size:1rem}
+.proof-card figcaption span,.proof-note{color:#4a5751;font-size:.9rem;line-height:1.55}
+.proof-note{margin-top:14px}
+@media(max-width:760px){.proof-grid{grid-template-columns:1fr;gap:16px}.proof-card{max-width:460px;margin-inline:auto}.proof-image{max-height:620px;object-fit:contain}}
+
+
+/* Urgência da oferta */
+.urgency-banner{background:#fff4d6;border:1px solid var(--dourado);border-radius:14px;padding:14px 16px;margin:18px 0;color:var(--verde);text-align:center}
+.urgency-banner strong{display:block;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase}
+.urgency-clock{display:flex;justify-content:center;gap:9px;margin-top:8px}
+.urgency-unit{min-width:62px;background:var(--verde);color:#fff;border-radius:9px;padding:7px 8px}
+.urgency-unit b{display:block;font-size:1.35rem;line-height:1.2;font-variant-numeric:tabular-nums}
+.urgency-unit small{font-size:.68rem;text-transform:uppercase;color:#e4dcc6}
+.urgency-expired{background:#f2eee4;border-color:#b9ad91;color:#514a3b}
+
 </style>
 </head>
 <body>
@@ -189,8 +209,19 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
       <p class="brand">SISTEMA WHATSAPP VENDEDOR · IP DIGITAL AO</p>
       <h1>Aprende a vender online pelo telemóvel, mesmo sem loja nem experiência</h1>
       <p class="sub">Formação em vídeo, scripts prontos e produtos exclusivos para divulgar. Tudo num só lugar.</p>
-      <p class="price-line"><s style="opacity:.7">11.500 Kz</s> &nbsp;<strong>7.000 Kz</strong> · pagamento único</p>
-      <a class="btn" data-cta data-label-wa="QUERO COMEÇAR — FALAR NO WHATSAPP" data-label-checkout="QUERO COMEÇAR AGORA" href="#oferta">QUERO COMEÇAR AGORA</a>
+      <p class="price-line"><s style="opacity:.7">11.500 Kz</s> &nbsp;<strong>5.000 Kz</strong> · pagamento único</p>
+
+<div class="urgency-banner" data-promo-countdown>
+  <strong>Oferta especial termina em</strong>
+  <div class="urgency-clock" aria-live="off">
+    <span class="urgency-unit"><b data-hours>24</b><small>Horas</small></span>
+    <span class="urgency-unit"><b data-minutes>00</b><small>Minutos</small></span>
+    <span class="urgency-unit"><b data-seconds>00</b><small>Segundos</small></span>
+  </div>
+  <small data-promo-status>Preço promocional de 5.000 Kz disponível até ao fim da contagem.</small>
+</div>
+
+      <a class="btn" data-cta data-label-checkout="QUERO COMEÇAR AGORA" href="#oferta">QUERO COMEÇAR AGORA</a>
       <p class="guar-line" style="color:#e4dcc6;margin-top:12px">✔ 7 dias de garantia</p>
       <ul class="hero-benefits">
         <li>Aprendes com formação em vídeo</li>
@@ -204,9 +235,16 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
   </div>
 </header>
 
+<section id="o-que-e" class="simple">
+  <div class="wrap">
+    <h2>O que é isto?</h2>
+    <p class="lead">O Sistema WhatsApp Vendedor é uma formação digital prática que ensina a montar uma estrutura para vender produtos online usando o telemóvel, anúncios, páginas de vendas e WhatsApp. Inclui aulas em vídeo, materiais de apoio, scripts e produtos que podes divulgar como afiliado.</p>
+  </div>
+</section>
+
 <section id="oferta" class="simple">
   <div class="wrap">
-    <h2>O que recebes por 7.000 Kz</h2>
+    <h2>O que recebes por 5.000 Kz</h2>
     <ul class="check">
       <li><b>Método completo:</b> vender com Meta Ads, página de vendas e WhatsApp</li>
       <li><b>Formação em vídeo</b>, no Google Drive: 5 módulos e 11 aulas</li>
@@ -226,9 +264,20 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
       </ul>
     </details>
     <div class="offer" style="margin-top:20px">
-      <div class="price"><s style="color:#8a8a7a;font-weight:500;font-size:1.2rem">11.500 Kz</s> 7.000 Kz<small>Preço único</small></div>
-      <div class="pay-list"><div class="pay-item"><img src="assets/multicaixa.webp" loading="lazy" alt="Multicaixa Express" width="40" height="40"><div><strong>Multicaixa Express</strong><small>Pagas na página segura da Kursinha</small></div></div><div class="pay-item"><img src="assets/multicaixa-referencia.webp" loading="lazy" alt="Referência" width="40" height="40"><div><strong>Referência</strong><small>Geras a referência na Kursinha e pagas por Multicaixa ou Internet Banking, em 24 horas</small></div></div><div class="pay-item"><img src="assets/banco.webp" loading="lazy" alt="Transferência bancária" width="40" height="40"><div><strong>Transferência bancária</strong><small>Os dados da conta são enviados no WhatsApp</small></div></div></div>
-      <a class="btn btn-dark btn-wide" data-cta data-label-wa="FALAR NO WHATSAPP PARA COMEÇAR" data-label-checkout="QUERO ACEDER AO SISTEMA" href="#oferta">QUERO ACEDER AO SISTEMA</a>
+      <div class="price"><s style="color:#8a8a7a;font-weight:500;font-size:1.2rem">11.500 Kz</s> 5.000 Kz<small>Preço único</small></div>
+
+<div class="urgency-banner" data-promo-countdown>
+  <strong>Oferta especial termina em</strong>
+  <div class="urgency-clock" aria-live="off">
+    <span class="urgency-unit"><b data-hours>24</b><small>Horas</small></span>
+    <span class="urgency-unit"><b data-minutes>00</b><small>Minutos</small></span>
+    <span class="urgency-unit"><b data-seconds>00</b><small>Segundos</small></span>
+  </div>
+  <small data-promo-status>Preço promocional de 5.000 Kz disponível até ao fim da contagem.</small>
+</div>
+
+      <div class="pay-list"><div class="pay-item"><img src="assets/multicaixa.webp" loading="lazy" alt="Multicaixa Express" width="40" height="40"><div><strong>Multicaixa Express</strong><small>Pagas na página segura da Kursinha</small></div></div><div class="pay-item"><img src="assets/multicaixa-referencia.webp" loading="lazy" alt="Referência" width="40" height="40"><div><strong>Referência</strong><small>Geras a referência na Kursinha e pagas por Multicaixa ou Internet Banking, em 24 horas</small></div></div></div>
+      <a class="btn btn-dark btn-wide" data-cta data-label-checkout="QUERO ACEDER AO SISTEMA" href="#oferta">QUERO ACEDER AO SISTEMA</a>
       <p class="guar-line">✔ Garantia de 7 dias: reembolso total se não continuares, pedido pelo WhatsApp de suporte.</p>
       <p class="delivery">Depois do pagamento, recebes acesso imediato aos cursos no Google Drive e ao chat VIP do WhatsApp.</p>
     </div>
@@ -237,19 +286,33 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
 
 <section class="problem">
   <div class="wrap">
-    <h2>Como comprar</h2>
+    <h2>Como posso comprar?</h2>
     <div class="grid steps">
-      <div class="step"><span class="num">1</span><h3>Clica no botão</h3><p>Abres uma conversa no WhatsApp com a nossa equipa.</p></div>
-      <div class="step"><span class="num">2</span><h3>Pagas</h3><p>Escolhes uma forma de pagamento: Referência, Multicaixa Express ou transferência bancária. Recebes as instruções no WhatsApp.</p><div class="pay-row"><img src="assets/multicaixa.webp" loading="lazy" alt="Multicaixa Express" width="40" height="40"><img src="assets/multicaixa-referencia.webp" loading="lazy" alt="Referência" width="40" height="40"><img src="assets/banco.webp" loading="lazy" alt="Transferência bancária" width="40" height="40"></div></div>
+      <div class="step"><span class="num">1</span><h3>Clica em comprar</h3><p>Abres directamente a página segura de pagamento da Kursinha.</p></div>
+      <div class="step"><span class="num">2</span><h3>Conclui o pagamento</h3><p>Escolhes uma das formas de pagamento disponibilizadas no checkout da Kursinha e segues as instruções apresentadas.</p><div class="pay-row"><img src="assets/multicaixa.webp" loading="lazy" alt="Multicaixa Express" width="40" height="40"><img src="assets/multicaixa-referencia.webp" loading="lazy" alt="Referência" width="40" height="40"></div></div>
       <div class="step"><span class="num">3</span><h3>Entras</h3><p>Recebes acesso imediato aos cursos no Google Drive e ao chat VIP.</p></div>
     </div>
-    <div style="text-align:center"><a class="btn btn-dark" data-cta data-label-wa="FALAR NO WHATSAPP PARA COMEÇAR" data-label-checkout="QUERO COMEÇAR AGORA" href="#oferta">QUERO COMEÇAR AGORA</a></div>
+    <div style="text-align:center"><a class="btn btn-dark" data-cta data-label-checkout="QUERO COMEÇAR AGORA" href="#oferta">QUERO COMEÇAR AGORA</a></div>
+  </div>
+</section>
+
+<section class="problem">
+  <div class="wrap">
+    <h2>Que problema resolve?</h2>
+    <p class="lead">Começar a vender online pode ser confuso: não saber que produto divulgar, o que dizer ao cliente, como apresentar a oferta ou como acompanhar uma pessoa interessada. A formação organiza esses passos num processo que podes estudar e aplicar.</p>
+    <ul class="check">
+      <li>Falta de um roteiro para começar a vender produtos digitais.</li>
+      <li>Dificuldade em apresentar uma oferta e responder a dúvidas dos interessados.</li>
+      <li>Falta de scripts e materiais para comunicar com potenciais clientes.</li>
+      <li>Não saber como ligar anúncios, página de vendas e atendimento pelo WhatsApp.</li>
+    </ul>
+    <p><strong>Importante:</strong> a formação ensina o processo; não garante clientes, vendas ou rendimentos. Os resultados dependem da execução, da oferta, do público e do mercado.</p>
   </div>
 </section>
 
 <section>
   <div class="wrap">
-    <h2>Como funciona</h2>
+    <h2>Como funciona?</h2>
     <div class="grid steps">
       <div class="step"><span class="num">1</span><h3>Aprendes</h3><p>Vês as aulas em vídeo e percebes o caminho passo a passo.</p></div>
       <div class="step"><span class="num">2</span><h3>Escolhes um produto</h3><p>Usas um dos 3 produtos exclusivos disponíveis.</p></div>
@@ -279,6 +342,31 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
       <p>Eu sou o <strong>Isaac Pedro</strong>, fundador do Sistema WhatsApp Vendedor. Criei esta formação para quem quer começar a vender produtos digitais e a usar o WhatsApp para atender e acompanhar clientes.</p><p>Nesta formação reúno o conhecimento que aplico no meu próprio trabalho: como vender com Meta Ads e página de vendas, e como fechar vendas pelo WhatsApp, passo a passo.</p>
       <p>Na formação, partilho o que é preciso para montar a estrutura, dar os primeiros passos e aplicar os conteúdos, com acompanhamento na comunidade VIP.</p>
     </div>
+  </div>
+</section>
+
+<section class="problem">
+  <div class="wrap">
+    <h2>Porque devo confiar?</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Pagamento pela Kursinha</h3>
+        <p>O botão de compra abre o checkout da Kursinha, onde podes consultar as opções de pagamento disponíveis antes de concluir a compra.</p>
+      </div>
+      <div class="card">
+        <h3>Conteúdo definido</h3>
+        <p>Antes de pagar, podes ver o que está incluído: 5 módulos, 11 aulas, scripts, materiais de apoio, 3 produtos para divulgação e acesso ao chat VIP.</p>
+      </div>
+      <div class="card">
+        <h3>Responsável identificado</h3>
+        <p>A formação é apresentada por Isaac Pedro, fundador do Sistema WhatsApp Vendedor e da IP DIGITAL AO.</p>
+      </div>
+      <div class="card">
+        <h3>Garantia anunciada</h3>
+        <p>A página apresenta uma garantia de 7 dias. Consulta as condições e contacta o suporte pelo WhatsApp indicado nas instruções de acesso para solicitar assistência.</p>
+      </div>
+    </div>
+    <p class="gold-note"><strong>Transparência:</strong> não prometemos enriquecimento rápido nem vendas garantidas. Compra apenas se o conteúdo corresponder ao que procuras e se puderes pagar os 5.000 Kz sem comprometer despesas essenciais.</p>
   </div>
 </section>
 
@@ -314,10 +402,10 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
 <section class="problem">
   <div class="wrap">
     <h2>Perguntas frequentes</h2>
-    <details><summary>É golpe?</summary>
-      <p>Não. Escolhes a forma de pagamento no WhatsApp: Referência ou Multicaixa Express, pagos na página da Kursinha, ou transferência bancária. Depois do pagamento, recebes acesso ao Google Drive e ao chat VIP. Depois do pagamento, recebes acesso ao Google Drive e ao chat VIP. Tens 7 dias de garantia com reembolso total.</p></details>
+    <details><summary>Como posso verificar antes de comprar?</summary>
+      <p>Lê a descrição, consulta os módulos e confirma o preço no checkout da Kursinha antes de pagar. O checkout é o canal indicado para concluir o pagamento. A página identifica o responsável pela formação e apresenta o conteúdo incluído. Se tiveres dúvidas sobre o conteúdo ou sobre a garantia, esclarece-as com o suporte antes de comprar.</p></details>
     <details><summary>Não tenho dinheiro agora. Posso pagar depois?</summary>
-      <p>O preço é único, 7.000 Kz, sem mensalidades. Só deves comprar se conseguires pagar sem comprometer despesas essenciais.</p></details>
+      <p>O preço é único, 5.000 Kz, sem mensalidades. Só deves comprar se conseguires pagar sem comprometer despesas essenciais.</p></details>
     <details><summary>Já tentei vender online e não deu certo.</summary>
       <p>O sistema dá-te a estrutura, os scripts e as aulas. Os resultados dependem da tua execução, da oferta, do público e do mercado, e não são garantidos. Se não te servir, tens 7 dias de garantia.</p></details>
     <details><summary>Preciso de experiência?</summary>
@@ -325,7 +413,7 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
     <details><summary>Preciso de computador?</summary>
       <p>Não. Tudo pode ser feito pelo telemóvel.</p></details>
     <details><summary>Como recebo acesso ao curso?</summary>
-      <p>Depois do pagamento, recebes acesso imediato aos cursos no Google Drive e ao chat VIP do WhatsApp.</p></details>
+      <p>Depois de a Kursinha confirmar o pagamento, recebes as instruções para aceder aos cursos no Google Drive e ao chat VIP do WhatsApp. Se não receberes as instruções, contacta o suporte.</p></details>
     <details><summary>Preciso de investir em anúncios?</summary>
       <p>Não é obrigatório. Podes começar pelo WhatsApp, sem custo extra. Os anúncios são uma opção para crescer e exigem orçamento e testes.</p></details>
     <details><summary>Vou ganhar dinheiro automaticamente?</summary>
@@ -336,16 +424,42 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
 <section class="final">
   <div class="wrap">
     <h2>Pronto para começar?</h2>
-    <p>Fala connosco no WhatsApp e tira as últimas dúvidas antes de pagar.</p>
-    <div class="price"><s style="opacity:.7;font-weight:500;font-size:1.2rem">11.500 Kz</s> 7.000 Kz<small>Preço único · 7 dias de garantia</small></div>
-    <a class="btn" data-cta data-label-wa="QUERO COMEÇAR — FALAR NO WHATSAPP" data-label-checkout="QUERO COMEÇAR AGORA" href="#oferta" style="max-width:360px">QUERO COMEÇAR AGORA</a>
+    <p>Adquire o Sistema WhatsApp Vendedor através do checkout seguro da Kursinha.</p>
+    <div class="price"><s style="opacity:.7;font-weight:500;font-size:1.2rem">11.500 Kz</s> 5.000 Kz<small>Preço único · 7 dias de garantia</small></div>
+
+<div class="urgency-banner" data-promo-countdown>
+  <strong>Oferta especial termina em</strong>
+  <div class="urgency-clock" aria-live="off">
+    <span class="urgency-unit"><b data-hours>24</b><small>Horas</small></span>
+    <span class="urgency-unit"><b data-minutes>00</b><small>Minutos</small></span>
+    <span class="urgency-unit"><b data-seconds>00</b><small>Segundos</small></span>
+  </div>
+  <small data-promo-status>Preço promocional de 5.000 Kz disponível até ao fim da contagem.</small>
+</div>
+
+    <a class="btn" data-cta data-label-checkout="QUERO COMEÇAR AGORA" href="#oferta" style="max-width:360px">QUERO COMEÇAR AGORA</a>
   </div>
 </section>
 
-<section id="depoimentos" hidden>
+<section id="provas-sociais" class="problem">
   <div class="wrap">
-    <h2>O que dizem os alunos</h2>
-    <div class="grid" id="testimonials"></div>
+    <h2>Provas reais de atendimento e pagamento</h2>
+    <p class="lead">Estas imagens foram partilhadas em conversas de WhatsApp durante atendimentos a clientes do Sistema WhatsApp Vendedor. Mostram comprovativos digitais enviados pelos compradores no processo de aquisição e acesso à formação.</p>
+    <div class="proof-grid">
+      <figure class="proof-card">
+        <img class="proof-image" src="assets/prova-whatsapp-01.jpg" alt="Conversa de WhatsApp com comprovativo digital partilhado por um cliente" loading="lazy">
+        <figcaption><strong>Comprovativo partilhado no WhatsApp</strong><span>Registo de atendimento e envio de comprovativo digital.</span></figcaption>
+      </figure>
+      <figure class="proof-card">
+        <img class="proof-image" src="assets/prova-whatsapp-02.jpg" alt="Conversa de WhatsApp com envio de comprovativo digital e confirmação de acesso" loading="lazy">
+        <figcaption><strong>Comprovativo e seguimento</strong><span>Registo de envio do comprovativo e continuação do atendimento.</span></figcaption>
+      </figure>
+      <figure class="proof-card">
+        <img class="proof-image" src="assets/prova-whatsapp-03.jpg" alt="Conversa de WhatsApp com comprovativo digital enviado durante a compra" loading="lazy">
+        <figcaption><strong>Mais um registo de pagamento</strong><span>Comprovativo digital partilhado durante o processo de compra.</span></figcaption>
+      </figure>
+    </div>
+    <p class="proof-note">Por privacidade, os dados de contacto foram ocultados. Estes registos demonstram transacções partilhadas no atendimento, mas não representam promessa nem garantia de resultados futuros.</p>
   </div>
 </section>
 
@@ -361,7 +475,49 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
   </div>
 </footer>
 
-<div class="sticky"><a class="btn" id="sticky-cta" data-cta data-label-wa="FALAR NO WHATSAPP · 7.000 Kz" data-label-checkout="QUERO ACEDER AO SISTEMA · 7.000 Kz" href="#oferta">QUERO ACEDER AO SISTEMA · 7.000 Kz</a></div>
+<div class="sticky"><a class="btn" id="sticky-cta" data-cta data-label-checkout="QUERO ACEDER AO SISTEMA · 5.000 Kz" href="#oferta">QUERO ACEDER AO SISTEMA · 5.000 Kz</a></div>
+
+<script>
+(function () {
+  /*
+    PRAZO FIXO PARA TODOS:
+    Este prazo está definido para 15/11/2026 às 22:18 (hora de Angola).
+    Se publicares a página noutra hora, altera PROMO_END_AT para exactamente
+    24 horas depois do momento real de publicação. Usa o mesmo ficheiro para todos.
+  */
+  var PROMO_END_AT = "2026-11-15T22:18:00+01:00";
+  var end = new Date(PROMO_END_AT).getTime();
+  var banners = document.querySelectorAll("[data-promo-countdown]");
+  function pad(n) { return String(n).padStart(2, "0"); }
+  function update() {
+    var remaining = Math.max(0, end - Date.now());
+    var totalSeconds = Math.floor(remaining / 1000);
+    var hours = Math.floor(totalSeconds / 3600);
+    var minutes = Math.floor((totalSeconds % 3600) / 60);
+    var seconds = totalSeconds % 60;
+    banners.forEach(function (banner) {
+      var h = banner.querySelector("[data-hours]");
+      var m = banner.querySelector("[data-minutes]");
+      var s = banner.querySelector("[data-seconds]");
+      var status = banner.querySelector("[data-promo-status]");
+      if (h) h.textContent = pad(hours);
+      if (m) m.textContent = pad(minutes);
+      if (s) s.textContent = pad(seconds);
+      if (remaining <= 0) {
+        banner.classList.add("urgency-expired");
+        var heading = banner.querySelector("strong");
+        if (heading) heading.textContent = "Prazo da oferta promocional terminado";
+        if (status) status.textContent = "Confirma o preço e a disponibilidade actuais no checkout antes de pagar.";
+        var clock = banner.querySelector(".urgency-clock");
+        if (clock) clock.hidden = true;
+      }
+    });
+  }
+  update();
+  window.setInterval(update, 1000);
+})();
+</script>
+
 <script>
 (function () {
   var C = window.SITE_CONFIG || {};
@@ -369,20 +525,16 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
   function track(evt) { if (window.fbq) window.fbq("track", evt); }
 
 
-  // 1. Botões de compra: WhatsApp quando o número estiver configurado; caso contrário, checkout
-  var digits = String(C.WHATSAPP_NUMBER || "").replace(/\D/g, "");
-  var waReady = /^\d{8,15}$/.test(digits);
-  var waUrl = waReady ? "https://wa.me/" + digits + "?text=" + encodeURIComponent(C.WHATSAPP_MESSAGE || "") : "";
-  var hasCheckout = C.CHECKOUT_URL && C.CHECKOUT_URL.indexOf("INSERIR") !== 0;
+  // 1. Todos os botões de compra encaminham directamente para o checkout da Kursinha.
+  var hasCheckout = typeof C.CHECKOUT_URL === "string" && /^https:\/\/pay\.kursinha\.com\//.test(C.CHECKOUT_URL);
   document.querySelectorAll("[data-cta]").forEach(function (a) {
-    if (waReady) {
-      a.href = waUrl; a.target = "_blank"; a.rel = "noopener";
-      a.textContent = a.dataset.labelWa;
-      a.addEventListener("click", function () { track("Contact"); });
-    } else if (hasCheckout) {
+    if (hasCheckout) {
       a.href = C.CHECKOUT_URL; a.target = "_blank"; a.rel = "noopener";
-      a.textContent = a.dataset.labelCheckout;
+      a.textContent = a.dataset.labelCheckout || "COMPRAR AGORA";
       a.addEventListener("click", function () { track("InitiateCheckout"); });
+    } else {
+      a.removeAttribute("href");
+      a.setAttribute("aria-disabled", "true");
     }
   });
 
