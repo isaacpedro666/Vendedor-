@@ -160,6 +160,11 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
 .mod{margin-top:14px}
 .mod summary{font-weight:700;color:var(--verde)}
 .mod ul{margin:10px 0 0 4px}
+.pay-list{display:grid;gap:10px;margin:16px 0}
+.pay-item{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #e6dcc3;border-radius:12px;padding:12px 14px;text-align:left}
+.pay-item img{width:40px;height:40px;flex-shrink:0;object-fit:contain}
+.pay-item strong{display:block;color:var(--verde);font-size:.98rem}
+.pay-item small{display:block;color:#4a5751;font-size:.85rem;line-height:1.4}
 </style>
 </head>
 <body>
@@ -222,7 +227,7 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
     </details>
     <div class="offer" style="margin-top:20px">
       <div class="price"><s style="color:#8a8a7a;font-weight:500;font-size:1.2rem">11.500 Kz</s> 7.000 Kz<small>Preço único</small></div>
-      <div class="pay-row"><img src="assets/multicaixa.webp" loading="lazy" alt="Multicaixa Express" width="40" height="40"><span>Multicaixa Express</span><span>Referência (Multicaixa ou Internet Banking)</span></div>
+      <div class="pay-list"><div class="pay-item"><img src="assets/multicaixa.webp" loading="lazy" alt="Multicaixa Express" width="40" height="40"><div><strong>Multicaixa Express</strong><small>Pagas na página segura da Kursinha</small></div></div><div class="pay-item"><img src="assets/multicaixa-referencia.webp" loading="lazy" alt="Referência" width="40" height="40"><div><strong>Referência</strong><small>Geras a referência na Kursinha e pagas por Multicaixa ou Internet Banking, em 24 horas</small></div></div><div class="pay-item"><img src="assets/banco.webp" loading="lazy" alt="Transferência bancária" width="40" height="40"><div><strong>Transferência bancária</strong><small>Os dados da conta são enviados no WhatsApp</small></div></div></div>
       <a class="btn btn-dark btn-wide" data-cta data-label-wa="FALAR NO WHATSAPP PARA COMEÇAR" data-label-checkout="QUERO ACEDER AO SISTEMA" href="#oferta">QUERO ACEDER AO SISTEMA</a>
       <p class="guar-line">✔ Garantia de 7 dias: reembolso total se não continuares, pedido pelo WhatsApp de suporte.</p>
       <p class="delivery">Depois do pagamento, recebes acesso imediato aos cursos no Google Drive e ao chat VIP do WhatsApp.</p>
@@ -235,7 +240,7 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
     <h2>Como comprar</h2>
     <div class="grid steps">
       <div class="step"><span class="num">1</span><h3>Clica no botão</h3><p>Abres uma conversa no WhatsApp com a nossa equipa.</p></div>
-      <div class="step"><span class="num">2</span><h3>Pagas</h3><p>Recebes o link de pagamento seguro e pagas na página da Kursinha, por Referência ou Multicaixa Express.</p></div>
+      <div class="step"><span class="num">2</span><h3>Pagas</h3><p>Escolhes uma forma de pagamento: Referência, Multicaixa Express ou transferência bancária. Recebes as instruções no WhatsApp.</p><div class="pay-row"><img src="assets/multicaixa.webp" loading="lazy" alt="Multicaixa Express" width="40" height="40"><img src="assets/multicaixa-referencia.webp" loading="lazy" alt="Referência" width="40" height="40"><img src="assets/banco.webp" loading="lazy" alt="Transferência bancária" width="40" height="40"></div></div>
       <div class="step"><span class="num">3</span><h3>Entras</h3><p>Recebes acesso imediato aos cursos no Google Drive e ao chat VIP.</p></div>
     </div>
     <div style="text-align:center"><a class="btn btn-dark" data-cta data-label-wa="FALAR NO WHATSAPP PARA COMEÇAR" data-label-checkout="QUERO COMEÇAR AGORA" href="#oferta">QUERO COMEÇAR AGORA</a></div>
@@ -310,7 +315,7 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
   <div class="wrap">
     <h2>Perguntas frequentes</h2>
     <details><summary>É golpe?</summary>
-      <p>Não. Recebes o link de pagamento seguro pelo WhatsApp e pagas na página da Kursinha, por Referência ou Multicaixa Express. Depois do pagamento, recebes acesso ao Google Drive e ao chat VIP. Tens 7 dias de garantia com reembolso total.</p></details>
+      <p>Não. Escolhes a forma de pagamento no WhatsApp: Referência ou Multicaixa Express, pagos na página da Kursinha, ou transferência bancária. Depois do pagamento, recebes acesso ao Google Drive e ao chat VIP. Depois do pagamento, recebes acesso ao Google Drive e ao chat VIP. Tens 7 dias de garantia com reembolso total.</p></details>
     <details><summary>Não tenho dinheiro agora. Posso pagar depois?</summary>
       <p>O preço é único, 7.000 Kz, sem mensalidades. Só deves comprar se conseguires pagar sem comprometer despesas essenciais.</p></details>
     <details><summary>Já tentei vender online e não deu certo.</summary>
