@@ -120,7 +120,7 @@ details p{margin:10px 0 0}
 .cta-mid{padding:36px 0}
 .cta-note{font-size:.92rem;color:#3c4a44;margin:12px auto 0;max-width:520px}
 .sticky{position:fixed;left:0;right:0;bottom:0;background:var(--verde);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));z-index:50;display:block;box-shadow:0 -4px 12px rgba(0,0,0,.15)}
-.sticky .btn{margin:0;width:100%;min-height:52px;animation:pulseCta 2.8s ease-in-out infinite}
+.sticky .btn{margin:0;width:100%;min-height:52px;display:flex;align-items:center;justify-content:center;animation:pulseCta 2.8s ease-in-out infinite}
 @keyframes pulseCta{0%,100%{box-shadow:0 0 0 0 rgba(197,155,59,.55)}50%{box-shadow:0 0 0 10px rgba(197,155,59,0)}}
 @media(prefers-reduced-motion:reduce){.sticky .btn{animation:none}}
 body{padding-bottom:84px}
@@ -356,7 +356,7 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
   </div>
 </footer>
 
-<a class="sticky btn" id="sticky-cta" data-cta data-label-wa="FALAR NO WHATSAPP · 7.000 Kz" data-label-checkout="QUERO ACEDER AO SISTEMA · 7.000 Kz" href="#oferta">QUERO ACEDER AO SISTEMA · 7.000 Kz</a>
+<div class="sticky"><a class="btn" id="sticky-cta" data-cta data-label-wa="FALAR NO WHATSAPP · 7.000 Kz" data-label-checkout="QUERO ACEDER AO SISTEMA · 7.000 Kz" href="#oferta">QUERO ACEDER AO SISTEMA · 7.000 Kz</a></div>
 <script>
 (function () {
   var C = window.SITE_CONFIG || {};
